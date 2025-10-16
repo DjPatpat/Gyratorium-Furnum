@@ -2,7 +2,9 @@
 Source installation information for modders
 -------------------------------------------
 
-Hallo Felix, du geiler Sack
+Hallo Felix, du geiler Sack.
+
+Nein Felix, das lösch ich ned raus.
 
 This code follows the Minecraft Forge installation methodology. It will apply
 some small patches to the vanilla MCP source code, giving you and it access 
