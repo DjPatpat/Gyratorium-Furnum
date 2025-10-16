@@ -1,0 +1,16 @@
+[
+{
+  "modid": "gf",
+  "name": "Gyratorium Furnum",
+  "description": "Kebaps for everyone!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["DjPatpat"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
