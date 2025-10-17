@@ -21,14 +21,14 @@ import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.registries.IForgeRegistry;
 
-@Mod(modid= Main.MOD_ID, version = Main.VERSION, name = Main.NAME)
-public class Main {
+@Mod(modid= GyratoriumFurnum.MOD_ID, version = GyratoriumFurnum.VERSION, name = GyratoriumFurnum.NAME)
+public class GyratoriumFurnum {
 	public static final String MOD_ID = "gf";
 	public static final String VERSION = "0.0.1";
 	public static final String NAME = "Gyratorium Furnum";
 	
 	@Instance
-	public static Main main;	
+	public static GyratoriumFurnum main;
 	
 	/**
 	 * must include package paths

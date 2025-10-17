@@ -1,6 +1,6 @@
 package com.gf.blocks;
 
-import com.gf.Main;
+import com.gf.GyratoriumFurnum;
 import com.gf.init.BlocksRegistry;
 
 import net.minecraft.block.Block;
@@ -23,7 +23,7 @@ public class BlockBase extends Block {
 	}
 	
 	public void registerItemModel(Item itemBlock) {
-		Main.proxy.registerItemRenderer(itemBlock, 0, name);
+		GyratoriumFurnum.proxy.registerItemRenderer(itemBlock, 0, name);
 	}
 	
 	public Item createItemBlock() {

@@ -1,6 +1,6 @@
 package com.gf.items;
 
-import com.gf.Main;
+import com.gf.GyratoriumFurnum;
 import com.gf.init.ItemsRegistry;
 
 import net.minecraft.item.ItemPickaxe;
@@ -18,7 +18,7 @@ public abstract class ItemPickaxeBase extends ItemPickaxe implements IRegisterab
 	}
 	
 	public void registerItemModel() {
-		Main.proxy.registerItemRenderer(this, 0, name);
+		GyratoriumFurnum.proxy.registerItemRenderer(this, 0, name);
 	}
 
 	@Override

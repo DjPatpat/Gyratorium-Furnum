@@ -1,6 +1,6 @@
 package com.gf.items;
 
-import com.gf.Main;
+import com.gf.GyratoriumFurnum;
 import com.gf.init.ItemsRegistry;
 
 import net.minecraft.item.ItemSpade;
@@ -18,7 +18,7 @@ public abstract class ItemShovelBase extends ItemSpade implements IRegisterable 
 	}
 	
 	public void registerItemModel() {
-		Main.proxy.registerItemRenderer(this, 0, name);
+		GyratoriumFurnum.proxy.registerItemRenderer(this, 0, name);
 	}
 
 	@Override

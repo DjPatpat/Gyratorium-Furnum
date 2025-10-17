@@ -1,6 +1,6 @@
 package com.gf.items;
 
-import com.gf.Main;
+import com.gf.GyratoriumFurnum;
 import com.gf.init.ItemsRegistry;
 
 import net.minecraft.creativetab.CreativeTabs;
@@ -17,7 +17,7 @@ public class ItemBase extends Item implements IRegisterable, ICreativeTabbable {
 	}
 	
 	public void registerItemModel() {
-		Main.proxy.registerItemRenderer(this, 0, name);
+		GyratoriumFurnum.proxy.registerItemRenderer(this, 0, name);
 	}
 
 	

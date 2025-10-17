@@ -1,6 +1,6 @@
 package com.gf.proxy;
 
-import com.gf.Main;
+import com.gf.GyratoriumFurnum;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -17,6 +17,6 @@ public class ClientProxy extends CommonProxy{
 	 */
 	@Override
 	public void registerItemRenderer(Item item, int metadataValue, String itemId) {
-		ModelLoader.setCustomModelResourceLocation(item, metadataValue, new ModelResourceLocation(Main.MOD_ID + ":" + itemId, "inventory"));
+		ModelLoader.setCustomModelResourceLocation(item, metadataValue, new ModelResourceLocation(GyratoriumFurnum.MOD_ID + ":" + itemId, "inventory"));
 	}
 }
