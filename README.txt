@@ -6,6 +6,8 @@ Hallo Felix, du geiler Sack.
 
 Nein Felix, das lösch ich ned raus.
 
+Und jetzt erst recht ned alda.
+
 This code follows the Minecraft Forge installation methodology. It will apply
 some small patches to the vanilla MCP source code, giving you and it access 
 to some of the data and functions you need to build a successful mod.
