@@ -1,5 +1,6 @@
 package com.gf.init;
 
+import com.gf.GyratoriumFurnum;
 import com.gf.blocks.BlockPintsisEverfulKebap;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -15,6 +16,6 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ModBlocks {
-    @GameRegistry.ObjectHolder("modtut:firstblock")
+    @GameRegistry.ObjectHolder(GyratoriumFurnum.MOD_ID + ":pintsiseverfulkebap")
     public static BlockPintsisEverfulKebap blockPintsisEverfulKebap;
 }
