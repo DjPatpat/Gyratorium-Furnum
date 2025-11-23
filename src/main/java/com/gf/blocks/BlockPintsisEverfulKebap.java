@@ -16,9 +16,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class BlockPintsisEverfulKebap extends Block {
     public BlockPintsisEverfulKebap(){
         super(Material.ROCK);
-        // TODO: add to en_us.lang
         this.setTranslationKey(GyratoriumFurnum.MOD_ID + ".pintsiseverfulkebap");
-        //setUnlocalizedName(GyratoriumFurnum.MOD_ID + ".pintsiseverfulkebap");
         setRegistryName("pintsiseverfulkebap");
         setCreativeTab(GyratoriumFurnum.GYRATORIUM_FURNUM);
     }
