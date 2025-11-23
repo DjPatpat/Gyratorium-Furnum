@@ -20,7 +20,7 @@ public class BlockPintsisEverfulKebap extends Block {
         this.setTranslationKey(GyratoriumFurnum.MOD_ID + ".pintsiseverfulkebap");
         //setUnlocalizedName(GyratoriumFurnum.MOD_ID + ".pintsiseverfulkebap");
         setRegistryName("pintsiseverfulkebap");
-        setCreativeTab(CreativeTabs.REDSTONE);
+        setCreativeTab(GyratoriumFurnum.GYRATORIUM_FURNUM);
     }
 
     @SideOnly(Side.CLIENT)

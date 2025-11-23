@@ -5,3 +5,6 @@ item.aluminum_pickaxe.name=Aluminum Pickaxe
 item.aluminum_axe.name=Aluminum Axe
 item.aluminum_shovel.name=Aluminum Shovel
 item.aluminum_hoe.name=Aluminum Hoe
+
+//Creative Tabs
+itemGroup.gyratoriumfurnum=Gyratorium Furnum

@@ -5,7 +5,9 @@ import com.gf.init.BlocksRegistry;
 import com.gf.init.ItemsRegistry;
 import com.gf.proxy.CommonProxy;
 
+import com.gf.tabs.CreativeTab;
 import net.minecraft.block.Block;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -29,7 +31,9 @@ public class GyratoriumFurnum {
 	
 	@Instance
 	public static GyratoriumFurnum main;
-	
+
+    public static final CreativeTabs GYRATORIUM_FURNUM = new CreativeTab("gyratoriumfurnum");
+
 	/**
 	 * must include package paths
 	 */
