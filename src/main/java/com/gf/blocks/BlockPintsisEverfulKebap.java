@@ -1,6 +1,7 @@
 package com.gf.blocks;
 
 import com.gf.GyratoriumFurnum;
+import com.gf.init.BlocksRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -16,9 +17,9 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class BlockPintsisEverfulKebap extends Block {
     public BlockPintsisEverfulKebap(){
         super(Material.ROCK);
-        this.setTranslationKey(GyratoriumFurnum.MOD_ID + ".pintsiseverfulkebap");
-        setRegistryName("pintsiseverfulkebap");
+        this.setTranslationKey(GyratoriumFurnum.MOD_ID + ":pintsiseverfulkebap");
         setCreativeTab(GyratoriumFurnum.GYRATORIUM_FURNUM);
+        setRegistryName("pintsiseverfulkebap");
     }
 
     @SideOnly(Side.CLIENT)
