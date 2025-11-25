@@ -13,7 +13,7 @@ public class CreativeTab extends CreativeTabs{
 
     @Override
     public ItemStack createIcon() {
-        return new ItemStack(Items.BEEF);
+        return new ItemStack(Items.COOKED_BEEF);
     }
 
 }

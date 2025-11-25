@@ -1,5 +1,10 @@
 {
+  "forge_marker": 1,
+  "defaults": {
+    "model": "gf:pintsiseverfulkebap"
+  },
   "variants": {
-    "normal": { "model": "gf:pintsiseverfulkebap" }
+    "normal": [{}],
+    "inventory": [{}]
   }
 }

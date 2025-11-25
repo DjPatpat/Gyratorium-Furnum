@@ -22,14 +22,12 @@ public class ClientProxy extends CommonProxy{
 	 */
 	@Override
 	public void registerItemRenderer(Item item, int metadataValue, String itemId) {
-		ModelLoader.setCustomModelResourceLocation(item, metadataValue, new ModelResourceLocation(GyratoriumFurnum.MOD_ID + "." + itemId, "inventory"));
+		ModelLoader.setCustomModelResourceLocation(item, metadataValue, new ModelResourceLocation(item.getRegistryName(), "inventory"));
 	}
 
-    @Mod.EventBusSubscriber(Side.CLIENT)
-    public static class ModelRegistration {
-        @SubscribeEvent
-        public static void registerModels(ModelRegistryEvent event) {
-            ModBlocks.blockPintsisEverfulKebap.initModel();
-        }
+    @SubscribeEvent
+    public static void registerModels(ModelRegistryEvent event) {
+        ModBlocks.initModels();
     }
+
 }
