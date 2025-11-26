@@ -7,6 +7,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class KebapAll extends Item {
     public SimpleTexturedItem() {
+        //ceck at home
         setRegistryName("simpletextureditem");
         setUnlocalizedName(ModTut.MODID + ".simpletextureditem");
     }
