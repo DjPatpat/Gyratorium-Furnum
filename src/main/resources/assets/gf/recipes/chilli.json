@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "AB",
+    "B  "
+  ],
+
+  "key":
+  {
+    "B":
+    {
+      "item": "minecraft:beetroot_seeds"
+    },
+
+    "A":
+    {
+      "item": "minecraft:gunpowder"
+    }
+  },
+
+  "result":
+  {
+    "item": "gf:chilli",
+    "count": 1
+  }
+}

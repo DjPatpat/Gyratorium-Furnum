@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "BBB",
+    "BSB",
+    "BBB"
+  ],
+
+  "key":
+  {
+    "B":
+    {
+      "item": "minecraft:beetroot"
+    },
+
+    "Z": [
+
+          {
+            "item": "minecraft:wooden_slab",
+            "data": 0
+          }
+      ]
+  },
+
+  "result":
+  {
+    "item": "gf:onion",
+    "count": 1
+  }
+}

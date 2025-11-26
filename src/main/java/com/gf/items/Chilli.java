@@ -7,10 +7,10 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class KebapAll extends Item {
-    public KebapAll() {
-        setRegistryName(GyratoriumFurnum.MOD_ID, "kebapall");
-        setTranslationKey(GyratoriumFurnum.MOD_ID + ".kebapall");
+public class Chilli extends Item {
+    public Chilli() {
+        setRegistryName(GyratoriumFurnum.MOD_ID, "chilli");
+        setTranslationKey(GyratoriumFurnum.MOD_ID + ".chilli");
         setCreativeTab(GyratoriumFurnum.GYRATORIUM_FURNUM);
     }
 

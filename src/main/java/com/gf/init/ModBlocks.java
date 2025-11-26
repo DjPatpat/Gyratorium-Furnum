@@ -6,8 +6,8 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ModBlocks {
-    public static final BlockPintsisEverfulKebap blockPintsisEverfulKebap =
-            new BlockPintsisEverfulKebap();
+    @GameRegistry.ObjectHolder("gf:pintsiseverfulkebap")
+    public static BlockPintsisEverfulKebap blockPintsisEverfulKebap;
 
     @SideOnly(Side.CLIENT)
     public static void initModels() {

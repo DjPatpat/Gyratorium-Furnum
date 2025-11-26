@@ -1,0 +1,64 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "YYY",
+        "  X",
+        "ZZZ"
+    ],
+    
+    "key":
+    {
+        "X":
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        
+        "Y":
+        {
+            "item": "minecraft:stick"
+        },
+        
+        "Z": [
+        
+            {
+                "item": "minecraft:wooden_slab",
+                "data": 0
+            },
+        
+            {
+                "item": "minecraft:wooden_slab",
+                "data": 1
+            },
+        
+            {
+                "item": "minecraft:wooden_slab",
+                "data": 2
+            },
+        
+            {
+                "item": "minecraft:wooden_slab",
+                "data": 3
+            },
+        
+            {
+                "item": "minecraft:wooden_slab",
+                "data": 4
+            },
+        
+            {
+                "item": "minecraft:wooden_slab",
+                "data": 5
+            }
+        
+        ]
+        
+    },
+    
+    "result":
+    {
+        "item": "gf:cuttingboard",
+        "count": 1
+    }
+}

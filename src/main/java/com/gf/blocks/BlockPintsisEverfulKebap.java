@@ -14,13 +14,12 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class BlockPintsisEverfulKebap extends Block {
     public BlockPintsisEverfulKebap(){
         super(Material.IRON);
-        this.setTranslationKey(GyratoriumFurnum.MOD_ID + ".pintsiseverfulkebap");
-        this.setCreativeTab(GyratoriumFurnum.GYRATORIUM_FURNUM);
+        setTranslationKey(GyratoriumFurnum.MOD_ID + ".pintsiseverfulkebap");
+        setCreativeTab(GyratoriumFurnum.GYRATORIUM_FURNUM);
         //setRegistryName(new ResourceLocation(GyratoriumFurnum.MOD_ID,"pintsiseverfulkebap"));
-        setRegistryName("pintsiseverfulkebap");
+        setRegistryName(GyratoriumFurnum.MOD_ID,"pintsiseverfulkebap");
         setHarvestLevel("pickaxe", 3);
     }
-
 
     @SideOnly(Side.CLIENT)
     public void initModel() {

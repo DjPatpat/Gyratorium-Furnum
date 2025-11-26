@@ -7,10 +7,10 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class KebapAll extends Item {
-    public KebapAll() {
-        setRegistryName(GyratoriumFurnum.MOD_ID, "kebapall");
-        setTranslationKey(GyratoriumFurnum.MOD_ID + ".kebapall");
+public class TomatoSliced extends Item {
+    public TomatoSliced() {
+        setRegistryName(GyratoriumFurnum.MOD_ID, "tomatosliced");
+        setTranslationKey(GyratoriumFurnum.MOD_ID + ".tomatosliced");
         setCreativeTab(GyratoriumFurnum.GYRATORIUM_FURNUM);
     }
 

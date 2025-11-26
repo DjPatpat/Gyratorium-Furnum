@@ -6,3 +6,13 @@
 * Godlike URFA who punishes you for commiting Kebap crimes, even in creative mode - Pending
 * URFA sign - Pending
 * Rotating 3d kebap skewer - Pending
+
+## generic Itemcreation Workflow
+* Create ItemClass in gf/items
+  * add to CreativeTab
+  * update en_us.lang
+* add to init/ModItems.java
+* register in CommonProxy.java
+* add model json
+* add recipe json
+* add texture png

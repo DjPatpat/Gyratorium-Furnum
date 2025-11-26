@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AB"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "gf:cuttingboard"
+        },
+        
+        "B":
+        {
+            "item": "gf:tomato"
+        }
+    },
+    
+    "result":
+    {
+        "item": "gf:tomatosliced",
+        "count": 5
+    }
+}

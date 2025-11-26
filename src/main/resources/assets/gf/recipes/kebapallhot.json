@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "CAC",
+        "TFO",
+        "SBS"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "minecraft:bread"
+        },
+        
+        "S":
+        {
+            "item": "minecraft:tallgrass"
+        },
+        
+        "T":
+        {
+            "item": "gf:tomatosliced"
+        },
+        
+        "F":
+        {
+            "item": "minecraft:cooked_chicken"
+        },
+        
+        "O":
+        {
+            "item": "gf:onionsliced"
+        },
+        
+        "C":
+        {
+            "item": "gf:chili"
+        },
+        
+        "A":
+        {
+            "item": "gf:sauce"
+        }
+    },
+    
+    "result":
+    {
+        "item": "gf:kebapallhot",
+        "count": 1
+    }
+}

@@ -1,6 +1,8 @@
 package com.gf;
 
 
+import com.gf.init.ModBlocks;
+import com.gf.init.ModItems;
 import com.gf.proxy.ClientProxy;
 import com.gf.proxy.CommonProxy;
 
@@ -26,7 +28,7 @@ import net.minecraftforge.registries.IForgeRegistry;
 @Mod(modid= GyratoriumFurnum.MOD_ID, version = GyratoriumFurnum.VERSION, name = GyratoriumFurnum.NAME)
 public class GyratoriumFurnum {
 	public static final String MOD_ID = "gf";
-	public static final String VERSION = "0.0.1";
+	public static final String VERSION = "0.1";
 	public static final String NAME = "Gyratorium Furnum";
 
 	@Mod.Instance("gf")
