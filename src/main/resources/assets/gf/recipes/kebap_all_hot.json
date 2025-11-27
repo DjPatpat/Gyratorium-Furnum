@@ -22,7 +22,7 @@
         
         "T":
         {
-            "item": "gf:tomatosliced"
+            "item": "gf:tomato_sliced"
         },
         
         "F":
@@ -32,7 +32,7 @@
         
         "O":
         {
-            "item": "gf:onionsliced"
+            "item": "gf:onion_sliced"
         },
         
         "C":
@@ -48,7 +48,7 @@
     
     "result":
     {
-        "item": "gf:kebapallhot",
+        "item": "gf:kebap_all_hot",
         "count": 1
     }
 }

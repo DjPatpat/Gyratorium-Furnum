@@ -2,15 +2,16 @@ package com.gf.items;
 
 import com.gf.GyratoriumFurnum;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.item.Item;
+import net.minecraft.item.ItemFood;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class CuttingBoard extends Item {
-    public CuttingBoard() {
-        setRegistryName(GyratoriumFurnum.MOD_ID, "cuttingboard");
-        setTranslationKey(GyratoriumFurnum.MOD_ID + ".cuttingboard");
+public class Kebap_All_Hot extends ItemFood {
+    public Kebap_All_Hot() {
+        super(10, 1.0F, false);
+        setRegistryName(GyratoriumFurnum.MOD_ID, "kebap_all_hot");
+        setTranslationKey(GyratoriumFurnum.MOD_ID + ".kebap_all_hot");
         setCreativeTab(GyratoriumFurnum.GYRATORIUM_FURNUM);
     }
 

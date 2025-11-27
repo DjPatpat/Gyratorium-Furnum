@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "gf:blocks/pintsiseverfulkebap"
+    "all": "gf:blocks/pintsis_everful_kebap"
   }
 }

@@ -10,7 +10,7 @@
     {
         "A":
         {
-            "item": "gf:cuttingboard"
+            "item": "gf:cutting_board"
         },
         
         "B":
@@ -21,7 +21,7 @@
     
     "result":
     {
-        "item": "gf:tomatosliced",
+        "item": "gf:tomato_sliced",
         "count": 5
     }
 }

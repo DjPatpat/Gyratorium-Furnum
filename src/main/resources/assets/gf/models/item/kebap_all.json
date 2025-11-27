@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "gf:items/onionsliced"
+    "layer0": "gf:items/kebap_all"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "gf:items/kebapall"
+    "layer0": "gf:items/tomato_sliced"
   }
 }

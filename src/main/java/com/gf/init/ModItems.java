@@ -7,14 +7,14 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 
 public class ModItems {
-    @GameRegistry.ObjectHolder("gf:kebapall")
-    public static KebapAll kebapAll;
+    @GameRegistry.ObjectHolder("gf:kebap_all")
+    public static Kebap_All kebap_all;
 
-    @GameRegistry.ObjectHolder("gf:kebapallhot")
-    public static KebapAllHot kebapAllHot;
+    @GameRegistry.ObjectHolder("gf:kebap_all_hot")
+    public static Kebap_All_Hot kebap_all_hot;
 
-    @GameRegistry.ObjectHolder("gf:cuttingboard")
-    public static CuttingBoard cuttingBoard;
+    @GameRegistry.ObjectHolder("gf:cutting_board")
+    public static Cutting_Board cutting_board;
 
     @GameRegistry.ObjectHolder("gf:chilli")
     public static Chilli chilli;
@@ -22,11 +22,11 @@ public class ModItems {
     @GameRegistry.ObjectHolder("gf:tomato")
     public static Tomato tomato;
 
-    @GameRegistry.ObjectHolder("gf:tomatosliced")
-    public static TomatoSliced tomatoSliced;
+    @GameRegistry.ObjectHolder("gf:tomato_sliced")
+    public static Tomato_Sliced tomato_sliced;
 
-    @GameRegistry.ObjectHolder("gf:onionsliced")
-    public static OnionSliced onionSliced;
+    @GameRegistry.ObjectHolder("gf:onion_sliced")
+    public static Onion_Sliced onion_sliced;
 
     @GameRegistry.ObjectHolder("gf:sauce")
     public static Sauce sauce;
@@ -39,13 +39,13 @@ public class ModItems {
 
     @SideOnly(Side.CLIENT)
     public static void initModels() {
-        kebapAll.initModel();
-        kebapAllHot.initModel();
-        cuttingBoard.initModel();
+        kebap_all.initModel();
+        kebap_all_hot.initModel();
+        cutting_board.initModel();
         chilli.initModel();
         tomato.initModel();
-        tomatoSliced.initModel();
-        onionSliced.initModel();
+        tomato_sliced.initModel();
+        onion_sliced.initModel();
         sauce.initModel();
         onion.initModel();
         salad.initModel();

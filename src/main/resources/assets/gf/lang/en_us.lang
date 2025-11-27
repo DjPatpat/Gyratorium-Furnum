@@ -2,15 +2,15 @@
 itemGroup.gyratoriumfurnum=Gyratorium Furnum
 
 //Blocks
-tile.gf.pintsiseverfulkebap.name=Pintsi's ever-lasting Kebap
+tile.gf.pintsis_everful_kebap.name=Pintsi's ever-lasting Kebap
 
 //Items
-item.gf.kebapall.name=Kebap mit Alles
-item.gf.kebapallhot.name=Kebap mit Alles und scharf
-item.gf.cuttingboard.name=Cutting Board
+item.gf.kebap_all.name=Kebap mit Alles
+item.gf.kebap_all_hot.name=Kebap mit Alles und scharf
+item.gf.cutting_board.name=Cutting Board
 item.gf.tomato.name=PARADEISER
-item.gf.tomatosliced.name=GSCHNITTANE PARADEISA OIDA
-item.gf.onionsliced.name=Sliced Onions
+item.gf.tomato_sliced.name=GSCHNITTANE PARADEISA OIDA
+item.gf.onion_sliced.name=Sliced Onions
 item.gf.chilli.name=Chilli
 item.gf.sauce.name=Sauce
 item.gf.onion.name=Onion

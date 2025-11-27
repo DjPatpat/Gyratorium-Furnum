@@ -7,11 +7,11 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class TomatoSliced extends ItemFood {
-    public TomatoSliced() {
-        super(1, 0.1F, false);
-        setRegistryName(GyratoriumFurnum.MOD_ID, "tomatosliced");
-        setTranslationKey(GyratoriumFurnum.MOD_ID + ".tomatosliced");
+public class Kebap_All extends ItemFood {
+    public Kebap_All() {
+        super(10, 1.0F, false);
+        setRegistryName(GyratoriumFurnum.MOD_ID, "kebap_all");
+        setTranslationKey(GyratoriumFurnum.MOD_ID + ".kebap_all");
         setCreativeTab(GyratoriumFurnum.GYRATORIUM_FURNUM);
     }
 
