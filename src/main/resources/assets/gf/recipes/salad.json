@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+
+  "key":
+  {
+    "B":
+    {
+      "item": "gf:cuttingboard"
+    },
+
+    "A":
+    {
+      "item": "minecraft:tallgrass",
+      "data": 1
+    }
+  },
+
+  "result":
+  {
+    "item": "gf:salad",
+    "count": 32
+  }
+}

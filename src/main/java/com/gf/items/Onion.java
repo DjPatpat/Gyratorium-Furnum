@@ -2,13 +2,14 @@ package com.gf.items;
 
 import com.gf.GyratoriumFurnum;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.item.Item;
+import net.minecraft.item.ItemFood;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class Onion extends Item{
+public class Onion extends ItemFood {
     public Onion() {
+        super(2, 0.4F, false);
         setRegistryName(GyratoriumFurnum.MOD_ID, "onion");
         setTranslationKey(GyratoriumFurnum.MOD_ID + ".onion");
         setCreativeTab(GyratoriumFurnum.GYRATORIUM_FURNUM);

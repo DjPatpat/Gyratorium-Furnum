@@ -50,6 +50,7 @@ public class CommonProxy {
         event.getRegistry().register(new TomatoSliced());
         event.getRegistry().register(new Sauce());
         event.getRegistry().register(new Onion());
+        event.getRegistry().register(new Salad());
 
         // ItemBlocks
         event.getRegistry().register(new ItemBlock(ModBlocks.blockPintsisEverfulKebap).setRegistryName(ModBlocks.blockPintsisEverfulKebap.getRegistryName()));

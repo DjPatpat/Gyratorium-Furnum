@@ -34,6 +34,9 @@ public class ModItems {
     @GameRegistry.ObjectHolder("gf:onion")
     public static Onion onion;
 
+    @GameRegistry.ObjectHolder("gf:salad")
+    public static Salad salad;
+
     @SideOnly(Side.CLIENT)
     public static void initModels() {
         kebapAll.initModel();
@@ -45,5 +48,6 @@ public class ModItems {
         onionSliced.initModel();
         sauce.initModel();
         onion.initModel();
+        salad.initModel();
     }
 }
